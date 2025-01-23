@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <b><title>Resume With Mr</title></b>
+    <b><title>Forms</title></b>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML page.</p>
+    <div>
+    <label for="Firtname">Your FIrst Name  :- </label>
+    <input method = "post" type="text" id="Firtname" name="First_name" placeholder="Enter Your FIrst name " required>
+    <div id="nameError" class="error"></div>
+    </div>
+    <br>
+    <div>
+    <label  for="Last Name">Your Last Name  :- </label>
+    <input method = "post" type="text" id="Last Name" name="last_name" placeholder="Enter Your Last name " required>
+    <div id="lnameError" class="error"></div>
+    </div>
+    <br>
+    <div>
+        <label for="City">ENter Your City name :- </label>
+        <input method = "post" type="text" id="City" name="city" placeholder="Enter Your City name " required>
+        <div id="cityError" class="error"></div>
+    </div>
+    <br>
+    <div>
+        <label for="Pincode">Enter Your Pin code :- </label>
+        <input method = "post" type="text" id="Pincode" name="pin code" placeholder="Enter Your Pin code " required>
+        <div id="pincodeError" class="error"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
